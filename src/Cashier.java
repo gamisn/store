@@ -9,7 +9,7 @@ public class Cashier {
 
     }
 
-    public float print_receipt(Date date){
+    public void print_receipt(Date date){
         Float subtotal = Float.valueOf(0);
         Float discount = Float.valueOf(0);
         Float total = Float.valueOf(0);
@@ -40,7 +40,7 @@ public class Cashier {
 
         total = subtotal - discount;
         System.out.printf("--------------------- \nSUBTOTAL:$%.2f  \nDISCOUNT:-$%.2f \n\nTOTAL:$%.2f \n",subtotal,discount,total);
-        return Float.valueOf(0);
+
     }
 
 }

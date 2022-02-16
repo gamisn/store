@@ -17,6 +17,7 @@ public class Main {
         cashier.add_product(Milk,Float.valueOf(3));
         cashier.add_product(TShirt,Float.valueOf(2));
         cashier.add_product(laptop,Float.valueOf(1));
+
         formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Date date = formatter.parse("2021-06-14 12:34:56");
 
