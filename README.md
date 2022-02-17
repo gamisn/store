@@ -29,9 +29,9 @@ DISCOUNT: - sum of all discounts
 
 TOTAL: sum to pay
 
-##Example(Test input)
-###Data:
-####Food: 
+## Example(Test input)
+### Data:
+#### Food: 
 
 Name: apples, 
 
@@ -41,7 +41,7 @@ Price: $1.50,
 
 Expiration date: 2021-06-14
 
-####Beverage: 
+#### Beverage: 
 
 Name: milk, 
 
@@ -51,7 +51,7 @@ Price: $0.99,
 
 Expiration date: 2022-02-02
 
-####Clothes: 
+#### Clothes: 
 
 Name: T-shirt,
 
@@ -63,7 +63,7 @@ Size: M
 
 Color: violet
 
-####Appliance:
+#### Appliance:
 
 Name: laptop
 
@@ -77,7 +77,7 @@ Production date: 2021-03-03
 
 Weight: 1.125 kg
 
-###Cart:
+### Cart:
 Apples x 2.45 kg
 
 Milk x 3 bottles
@@ -86,11 +86,11 @@ T-shirts x 2
 
 Laptop x 1
 
-####Date and time of purchase:
+#### Date and time of purchase:
 2021-06-14 12:34:56
 
 
-##Expected output
+## Expected output
 Date: 2021-06-14 12:34:56
 
 ---Products---
